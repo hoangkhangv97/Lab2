@@ -41,13 +41,13 @@ import java.io.InputStreamReader;
  * specified device. All data received at the specified
  * baud rate will be transferred back out the same UART.
  */
-public class LoopbackActivity extends Activity {
+public class Lab2Activity extends Activity {
     private Button btn;
     private Pwm mPwm;
     private Gpio mLedGpioR;
     private Gpio mLedGpioG;
     private Gpio mLedGpioB;
-    private static final String TAG = "LoopbackActivity";
+    private static final String TAG = "Lab2Activity";
     private String temp = "F";
     private int mLedState = 0;
     private int mExercise = 0;
@@ -242,9 +242,7 @@ public class LoopbackActivity extends Activity {
                     Log.d("Hello",s);
                     if (s.equals("o")&&temp.equals("F")){
                         temp = "O";
-//                        Intent intent = new Intent(this,MainActivity.class);
-//                        startActivity(intent);
-//                        finish();
+//
                     }
                     if (temp.equals("O")){
                         if (s.equals("1")){

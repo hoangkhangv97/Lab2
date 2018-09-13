@@ -21,7 +21,7 @@
     <application android:label="@string/app_name">
         <uses-library android:name="com.google.android.things" />
 
-        <activity android:name=".LoopbackActivity">
+        <activity android:name=".Lab2Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -40,7 +40,6 @@
             </intent-filter>
             -->
         </activity>
-        <activity android:name=".MainActivity"></activity>
     </application>
 
 </manifest>
