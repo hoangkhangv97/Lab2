@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.androidthings.loopback;
+package com.example.androidthings.lab2;
 
 import android.os.Build;
 @SuppressWarnings("WeakerAccess")

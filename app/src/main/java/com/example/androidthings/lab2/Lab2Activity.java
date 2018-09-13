@@ -14,15 +14,13 @@
  * limitations under the License.
  */
 
-package com.example.androidthings.loopback;
+package com.example.androidthings.lab2;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.HandlerThread;
 import android.util.Log;
-import android.view.KeyEvent;
 import android.view.View;
 import android.widget.Button;
 
@@ -32,9 +30,7 @@ import com.google.android.things.pio.Pwm;
 import com.google.android.things.pio.UartDevice;
 import com.google.android.things.pio.UartDeviceCallback;
 
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
 
 /**
  * Example activity that provides a UART loopback on the
